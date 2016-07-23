@@ -68,3 +68,10 @@ It's pretty basic, it just works.
     ...
     Now glyphicons should work in any location.
     Restart your server and navigate to your page... behold, a glyphtastic affair.
+
+    This will now also work if you are downloading your bootstrap.css from a CDN
+    See for yourself by changing your bootstrap.css link in layout.jade to the following
+    layout.jade...
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+
+    JOB DONE!
