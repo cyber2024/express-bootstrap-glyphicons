@@ -73,5 +73,8 @@ It's pretty basic, it just works.
     See for yourself by changing your bootstrap.css link in layout.jade to the following
     layout.jade...
     link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+    It is worth noting here that when you download bootstrap from a cdn, it will link to glyphicons also from the CDN,
+    so the static reference in the Express app is not required... nor is the local bootstrap files
+
 
     JOB DONE!
